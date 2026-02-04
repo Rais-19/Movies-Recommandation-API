@@ -2,6 +2,7 @@ import streamlit as st
 import requests
 import pandas as pd
 import os
+import requests
 #configuration:
 
 API_URL = os.getenv("API_URL", "https://movies-recommandation-fastapi.onrender.com")
@@ -66,7 +67,7 @@ if search_button and movie_input.strip():
                 "min_votes": min_votes,
                 "min_rating": min_rating
             }
-            response = requests.post(f"{API_BASE_URL}/recommend", json=payload, timeout=12)
+            response = requests.post(f"{API_URL}/recommend", json=payload, timeout=12)
             
             if response.status_code == 200:
                 data = response.json()
