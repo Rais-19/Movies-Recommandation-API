@@ -2,7 +2,7 @@
 
 # Live App
 Interactive Demo (Streamlit UI)
-➜ https://movies-recommandation-api-frontend.onrender.com/ Predict daily coffee shop revenue with a simple form.
+➜ https://movies-recommandation-api-frontend.onrender.com/ 
 
 API Endpoint (FastAPI backend)
 ➜ https://movies-recommandation-fastapi.onrender.com/
