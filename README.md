@@ -2,7 +2,7 @@
 
 # Live App
 Interactive Demo (Streamlit UI)
-➜ https://movies-recommandation-api-frontend.onrender.com/ 
+➜ https://movies-recommandation-api.onrender.com/
 
 API Endpoint (FastAPI backend)
 ➜ https://movies-recommandation-fastapi.onrender.com/
