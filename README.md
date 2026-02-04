@@ -1,5 +1,14 @@
 #  Movie Recommender API & Web App
 
+# Live App
+Interactive Demo (Streamlit UI)
+➜ https://movies-recommandation-api-frontend.onrender.com/ Predict daily coffee shop revenue with a simple form.
+
+API Endpoint (FastAPI backend)
+➜ https://movies-recommandation-fastapi.onrender.com/
+
+OpenAPI docs: https://movies-recommandation-fastapi.onrender.com/docs
+Health check: https://movies-recommandation-fastapi.onrender.com/health
 ## Goal of the Program
 
 Recommend movies you’ll likely love based on one you already enjoy — using semantic similarity of plot, genres, cast, and director, plus quality/popularity filtering.
