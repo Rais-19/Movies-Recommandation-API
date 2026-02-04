@@ -4,7 +4,7 @@ import pandas as pd
 import os
 #configuration:
 
-API_URL = os.getenv("API_URL", https://movies-recommandation-fastapi.onrender.com/)
+API_URL = os.getenv("API_URL", "https://movies-recommandation-fastapi.onrender.com")
 st.set_page_config(page_title="Movie Recommender", layout="wide")
 
 #   HEADER & DESCRIPTION
