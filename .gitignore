@@ -9,9 +9,8 @@ __pycache__/
 *.pyo
 *.pyd
 
-*.pkl
+
 *.pickle
-model/*.pkl
 data/*.csv
 *.npy
 similarity_matrix.npy
